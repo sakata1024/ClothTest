@@ -92,7 +92,7 @@ function lineReply(e) {
     "messages" : [
       {
         "type" : "text",
-        "text" : ((e.message.type=="location")? GetWeather(e.message.latitude,e.message.longitude) : "位置情報以外")
+        "text" : ((e.message.type=="location")? GetWeather(e.message.latitude,e.message.longitude) : "なに送る気だよ")
       }
     ]
   };
